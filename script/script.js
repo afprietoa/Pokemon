@@ -33,6 +33,7 @@ const  printData = (data) => {
                 html += `<img src="${data.sprites.front_default}" class="card-img-top" alt="...">`
                 html += '<div class="card-body">'
                     html += `<h5 class="card-title text-center" >${data.species.name}</h5>`
+                    html += `<p class="card-text text-center">${data.types[0].type.name}</p>`
                 html += '</div>'
             html += '</div>'
         html += '</div>'
