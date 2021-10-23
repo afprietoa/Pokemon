@@ -39,4 +39,4 @@ const  printData = (data) => {
     
     document.getElementById('cards-Char').innerHTML = html
 }
-getPokemons(9)
+getPokemons(20)
